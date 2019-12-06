@@ -17,6 +17,7 @@ int main(void)
     y1 = 3 * x;
     y2 = 5 * x - 10;
   } while (fabs(y1 - y2) >= 0.001);
+
   printf("Point of intersection: %lf\n", x);
   return 0;
 }
